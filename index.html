@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="سياسة الخصوصية لتطبيق IPTVMAS مشغل IPTV للتلفاز">
+  <title>سياسة الخصوصية | IPTVMAS</title>
+  <style>
+    :root{color-scheme:light;--ink:#17212b;--muted:#526171;--line:#d8e0e7;--accent:#087e9b;--note:#fff5d8}
+    *{box-sizing:border-box}
+    body{margin:0;background:#f4f7fa;color:var(--ink);font:17px/1.75 Arial,"Segoe UI",sans-serif}
+    main{width:min(100% - 32px,1000px);margin:32px auto;padding:clamp(22px,5vw,56px);background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:0 12px 36px #10203012}
+    h1,h2{line-height:1.35}h1{margin:0 0 8px;font-size:2rem;color:#0d2638}h2{margin:34px 0 10px;font-size:1.28rem;color:#0c627c}
+    p{margin:10px 0}.meta,.muted{color:var(--muted)}.meta{margin-bottom:24px;font-size:.94rem}
+    ul{padding-inline-start:24px}li{margin:8px 0}
+    .lang{padding-top:24px;border-top:1px solid var(--line);margin-top:42px;direction:ltr;text-align:left}
+    a{color:var(--accent);overflow-wrap:anywhere}footer{margin-top:34px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:.92rem}
+    @media(max-width:600px){body{font-size:16px}main{width:100%;margin:0;border-radius:0;border-inline:0;padding:24px 18px}}
+  </style>
+</head>
+<body>
+<main>
+  <section lang="ar" dir="rtl">
+    <h1>سياسة الخصوصية — IPTVMAS</h1>
+    <p class="meta">آخر تحديث: 10 أكتوبر 2026</p>
+    <p>IPTVMAS مشغّل وسائط للتلفاز. لا يبيع التطبيق اشتراكات أو قنوات، ولا يستضيف ملفات الفيديو أو يعيد بثها. يضيف المستخدم مزوده بنفسه، ويتصل التطبيق مباشرة بالخادم الذي اختاره المستخدم.</p>
+
+    <h2>البيانات التي يستخدمها التطبيق</h2>
+    <ul>
+      <li><strong>بيانات مزود IPTV:</strong> قد يحفظ التطبيق اسم المزود الذي يختاره المستخدم، وعنوان الخادم أو رابط M3U، واسم المستخدم وكلمة المرور ورابط دليل البرامج EPG. تُشفّر بيانات اتصال المزود محليًا باستخدام AES-GCM، وتُستخدم لتحميل قائمة المستخدم والاتصال بمزوده. لا يرسلها التطبيق إلى مشغّل IPTVMAS.</li>
+      <li><strong>بيانات الاستخدام والمشاهدة:</strong> تُحفظ المفضلة ومواضع استئناف المشاهدة ودليل البرامج والإعدادات ورمز PIN محليًا على التلفاز. قد يتضمن سجل الاستئناف اسم العنصر ورابطه وموضع التشغيل. لا يرسل التطبيق هذه البيانات إلى خادم تحليلات.</li>
+      <li><strong>معرّف التثبيت والجهاز:</strong> ينشئ التطبيق معرّف تثبيت عشوائيًا ويحفظه على التلفاز. عند إعداد خدمة الترخيص وتشغيلها، قد يرسل التطبيق هذا المعرّف والمنصة إلى خادم الترخيص للتحقق من حالة الترخيص. وبعد موافقة المستخدم على تفعيل التجربة المرتبطة بجهاز، قد يستخدم معرّف التلفاز الذي توفره المنصة. يخزّن خادم الترخيص بصمة HMAC للمعرّف بدل قيمته الخام، إضافة إلى المنصة وتواريخ التجربة اللازمة لإدارتها.</li>
+      <li><strong>معلومات لا يطلبها التطبيق:</strong> لا يطلب التطبيق اسم المستخدم الحقيقي أو بريده أو عنوانه أو رقم هاتفه، ولا يستخدم الميكروفون أو الكاميرا أو معرّف الإعلانات. لا تجمع النسخة الحالية بيانات الدفع؛ ميزة الشراء والتحقق من إيصال المتجر غير مفعّلة.</li>
+    </ul>
+
+    <h2>كيف تتم مشاركة البيانات</h2>
+    <ul>
+      <li><strong>مزود IPTV الذي يختاره المستخدم:</strong> يرسل التطبيق إلى المزود بيانات الاتصال اللازمة وطلبات القوائم ودليل البرامج والتشغيل. عند المشاهدة، قد يتمكن المزود من معرفة عنوان الشبكة والطلبات والعناصر التي جرى تشغيلها. تخضع البيانات التي يحتفظ بها المزود لسياسة ذلك المزود، لا لسياسة IPTVMAS.</li>
+      <li><strong>خدمة الترخيص:</strong> إذا فُعّلت، تتلقى معرّف التثبيت أو معرّف الجهاز والمنصة لإدارة حالة الترخيص والتجربة. لا تتلقى بيانات دخول مزود IPTV أو روابط البث. لا يستخدم التطبيق خدمات إعلانات أو تحليلات في النسخة الحالية.</li>
+    </ul>
+
+    <h2>مكان التخزين والاحتفاظ</h2>
+    <ul>
+      <li>تُخزّن بيانات المزود والمفضلة ومواضع المشاهدة والإعدادات على التلفاز الذي يستخدمه العميل، في البلد الذي يوجد فيه ذلك التلفاز. يمكن حذف بيانات المزود من إعدادات التطبيق؛ وقد يؤدي مسح بيانات التطبيق أو إلغاء تثبيته إلى حذف البيانات المحلية.</li>
+      <li>إذا فُعّلت خدمة الترخيص مستقبلاً، فستُخزّن بياناتها لدى مشغّل الخدمة في بلد الاستضافة الذي ستوضحه السياسة قبل التفعيل. ويُحتفظ بسجل الترخيص للمدة اللازمة لإدارة التجربة أو الترخيص، ثم يُحذف أو تُزال عنه إمكانية تحديد الهوية وفق سياسة الاحتفاظ المعلنة.</li>
+      <li>يختلف مكان معالجة البيانات التي يرسلها المستخدم إلى مزود IPTV باختلاف المزود. يُرجى مراجعة سياسة المزود لمعرفة مكان تخزينه ومدة احتفاظه بالبيانات.</li>
+    </ul>
+
+    <h2>الأمان وخيارات المستخدم</h2>
+    <p>تُشفّر بيانات اتصال المزود المحفوظة محليًا داخل التطبيق. يعتمد أمان نقل البيانات إلى مزود IPTV على عنوان الاتصال الذي يقدمه المزود؛ استخدم اتصال HTTPS متى كان متاحًا. لا تُدخل بيانات مزود لا تثق به.</p>
+    <p>يمكن للمستخدم حذف المزود من التطبيق ومسح البيانات المحلية من إعدادات التلفاز. وللاستفسار عن البيانات المرتبطة بخدمة الترخيص أو طلب الوصول إليها أو حذفها، تواصل مع مشغّل التطبيق عبر: <a href="mailto:Almasalmam@proton.me">Almasalmam@proton.me</a>.</p>
+
+    <h2>التغييرات والتواصل</h2>
+    <p>قد تُحدّث هذه السياسة عند تغيير خصائص التطبيق أو خدماته. ستُنشر النسخة المحدثة في صفحة السياسة نفسها، ويُعرض تاريخ آخر تحديث أعلى الصفحة.</p>
+    <p><strong>ناشر التطبيق في المتجر:</strong> Almasalmam. <strong>بريد الخصوصية والدعم:</strong> <a href="mailto:Almasalmam@proton.me">Almasalmam@proton.me</a>.</p>
+  </section>
+
+  <section class="lang" lang="en" dir="ltr">
+    <h1>Privacy Policy — IPTVMAS</h1>
+    <p class="meta">Last updated: 10 October 2026</p>
+    <p>IPTVMAS is a TV media player. It does not sell subscriptions or channels, host video files, or relay streams. Users add their own provider, and the app connects directly to the server they choose.</p>
+
+    <h2>Data the app uses</h2>
+    <ul>
+      <li><strong>IPTV provider details:</strong> The app may store the provider name chosen by the user, a server address or M3U URL, username, password, and EPG guide URL. Provider connection details are encrypted locally with AES-GCM and used to load the user's playlist and connect to that provider. The app does not send them to the IPTVMAS operator.</li>
+      <li><strong>Usage and viewing data:</strong> Favorites, resume positions, guide data, preferences, and the PIN setting are stored locally on the TV. Resume data may include an item title, its URL, and playback position. The app does not send this information to an analytics server.</li>
+      <li><strong>Installation and device identifiers:</strong> The app creates a random installation identifier and stores it on the TV. When a licensing service is configured and available, the app may send that identifier and platform to the license server to check license status. After the user agrees to a device-bound trial, the app may use the TV identifier provided by the platform. The licensing server stores an HMAC digest instead of the raw identifier, along with the platform and trial dates needed to administer the trial.</li>
+      <li><strong>Information the app does not request:</strong> The app does not request the user's real name, email, address, or phone number, and does not use the microphone, camera, or advertising ID. The current version does not collect payment details; purchasing and store receipt verification are not enabled.</li>
+    </ul>
+
+    <h2>How data is shared</h2>
+    <ul>
+      <li><strong>User-selected IPTV provider:</strong> The app sends the provider the connection details and requests needed for playlists, guide data, and playback. During viewing, the provider may be able to see the network address, requests, and items played. Data retained by the provider is governed by that provider's own privacy policy, not this IPTVMAS policy.</li>
+      <li><strong>Licensing service:</strong> If enabled, it receives the installation or device identifier and platform to manage license and trial status. It does not receive IPTV provider credentials or stream URLs. The current version does not use advertising or analytics services.</li>
+    </ul>
+
+    <h2>Storage location and retention</h2>
+    <ul>
+      <li>Provider details, favorites, viewing positions, and preferences are stored on the customer's TV, in the country where that TV is located. Users can remove a provider in the app; clearing app data or uninstalling may remove local data.</li>
+      <li>If remote licensing is enabled in the future, its operator will store license data in the hosting country identified in an updated policy before activation. License records will be kept only as long as needed to administer the trial or license, then deleted or de-identified under the published retention policy.</li>
+      <li>The location where data sent to an IPTV provider is processed varies by provider. Please consult that provider's privacy policy for its storage location and retention period.</li>
+    </ul>
+
+    <h2>Security and user choices</h2>
+    <p>Provider connection details saved locally by the app are encrypted. Security of data sent to an IPTV provider depends on the address supplied by that provider; use HTTPS where available. Do not enter details for a provider you do not trust.</p>
+    <p>Users can remove a provider in the app and clear local data through the TV settings. To ask about, access, or request deletion of data associated with a licensing service, contact the app operator at: <a href="mailto:Almasalmam@proton.me">Almasalmam@proton.me</a>.</p>
+
+    <h2>Changes and contact</h2>
+    <p>This policy may be updated when app features or services change. The current version will be published at the same policy page, with the last-updated date shown above.</p>
+    <p><strong>Store publisher:</strong> Almasalmam. <strong>Privacy and support email:</strong> <a href="mailto:Almasalmam@proton.me">Almasalmam@proton.me</a>.</p>
+  </section>
+
+  <footer>IPTVMAS — privacy information for the TV app</footer>
+</main>
+</body>
+</html>
